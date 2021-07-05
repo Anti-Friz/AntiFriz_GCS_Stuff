@@ -7,5 +7,6 @@
 
 If you find a problem, inaccuracies or request for new equipment - you may create a [issue](https://github.com/Anti-Friz/GURPS-High-Tech-Expanded/issues).
 
+Чтобы установить библиотеку: Code => Download  zip, затем распаковать папку из архива в C:\Users\(имя пользователя)\GCS\User Library. Или создать репозиторий через GitHub Desktop в то же место - тогда можно будет обновлять, когда что-то изменится тут.
 
 Мой дискорд: https://discord.com/invite/CnNhrUB
