@@ -1,0 +1,3270 @@
+{
+	"type": "equipment_list",
+	"version": 2,
+	"id": "6a0125b5-a8c6-4dd5-a988-f8d4a12fecf4",
+	"rows": [
+		{
+			"type": "equipment_container",
+			"id": "a05db018-eaf7-46b8-ab60-174037f77ec9",
+			"description": "Ижмаш АШ-12, 12.7×55mm СЦ-130",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "1000",
+			"weight": "10.5 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "6d+1"
+					},
+					"strength": "9†",
+					"accuracy": "3",
+					"range": "330/990",
+					"rate_of_fire": "10",
+					"shots": "10+1(3)",
+					"bulk": "-4",
+					"recoil": "4",
+					"calc": {
+						"level": 0,
+						"range": "330/990",
+						"damage": "6d+1 pi+"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": " Accessory Rail (p. HT161) для прицелов и других приспособлений. Компенсатор (бонус +1 при 3 и больше выстрелов, +2 на Слух и Зрение, чтобы заметить стрелка. TS76). Можно установить глушитель.",
+			"categories": [
+				"Винтовки",
+				"Оружие"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "0a11af4f-69f7-47c9-b977-d0f3c1b489db",
+			"description": "FN FAL .280/30, .280 British (7.43mm)",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "1000",
+			"weight": "9 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "6d+1"
+					},
+					"strength": "9†",
+					"accuracy": "4",
+					"range": "600/3300",
+					"rate_of_fire": "11",
+					"shots": "20+1(3)",
+					"bulk": "-6",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "600/3300",
+						"damage": "6d+1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Винтовки",
+				"Оружие"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "1bb223f6-e0f9-4bd2-976d-5a5bbdf57130",
+			"description": "Kel-Tec RFB Target Rifle, 7.62×51mm",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "1900",
+			"weight": "11.3 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "7d"
+					},
+					"strength": "9†",
+					"accuracy": "6",
+					"range": "1000/4200",
+					"rate_of_fire": "3",
+					"shots": "10+1(3)",
+					"bulk": "-6",
+					"recoil": "3",
+					"calc": {
+						"level": 0,
+						"range": "1000/4200",
+						"damage": "7d pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": " Accessory Rail (p. HT161) для прицелов. Пламегаситель (TS76, Flash Hider).",
+			"categories": [
+				"Винтовки",
+				"Оружие"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "48ce0e95-4a51-4029-b770-7946ee76971b",
+			"description": "Kel-Tec RFB Sport Carbine, 7.62×51mm",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "1900",
+			"weight": "8.7 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "7d"
+					},
+					"strength": "9†",
+					"accuracy": "5",
+					"range": "1000/4200",
+					"rate_of_fire": "3",
+					"shots": "10+1(3)",
+					"bulk": "-5",
+					"recoil": "3",
+					"calc": {
+						"level": 0,
+						"range": "1000/4200",
+						"damage": "7d pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": " Accessory Rail (p. HT161) для прицелов.  Пламегаситель (TS76, Flash Hider).",
+			"categories": [
+				"Винтовки",
+				"Оружие"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "390a1315-1c29-4cde-b966-20cd4786ba90",
+			"description": "Kel-Tec RFB Carbine, 7.62×51mm",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "1800",
+			"weight": "8.1 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "6d+2"
+					},
+					"strength": "9†",
+					"accuracy": "4",
+					"range": "850/3750",
+					"rate_of_fire": "3",
+					"shots": "10+1(3)",
+					"bulk": "-4",
+					"recoil": "3",
+					"calc": {
+						"level": 0,
+						"range": "850/3750",
+						"damage": "6d+2 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": " Accessory Rail (p. HT161) для прицелов.  Пламегаситель (TS76, Flash Hider).",
+			"categories": [
+				"Винтовки",
+				"Оружие"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "c03fd903-0025-417e-914a-8a1a16b61064",
+			"description": "FN Herstal F2000 Tactical GL1, 5.56×45mm/40×46mmSR",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "2800",
+			"weight": "11.2 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "5d-1"
+					},
+					"strength": "9†",
+					"usage": "5.56×45mm",
+					"accuracy": "5+2",
+					"range": "770/3200",
+					"rate_of_fire": "14",
+					"shots": "30+1(3)",
+					"bulk": "-4",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "770/3200",
+						"damage": "5d-1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr ex",
+						"base": "4d-1",
+						"fragmentation": "2d",
+						"fragmentation_type": "cut"
+					},
+					"strength": "9†",
+					"usage": "40×46mmSR",
+					"accuracy": "1",
+					"range": "30/440",
+					"rate_of_fire": "1",
+					"shots": "1(3)",
+					"bulk": "-4",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "30/440",
+						"damage": "4d-1 cr ex [2d cut]"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": " Accessory Rails (p. HT161), +2 to Retain Weapon, игнорирует -2 от темноты (с базовым прицелом).  Пламегаситель (TS76, Flash Hider).",
+			"categories": [
+				"Винтовки",
+				"Оружие"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "8ddb2362-32d4-49b8-b40e-a9116adba3f7",
+			"description": "FN Herstal F2000 Standard GL1, 5.56×45mm/40×46mmSR",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "3000",
+			"weight": "11.2 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "5d-1"
+					},
+					"strength": "9†",
+					"usage": "5.56×45mm",
+					"accuracy": "5+2",
+					"range": "770/3200",
+					"rate_of_fire": "14",
+					"shots": "30+1(3)",
+					"bulk": "-4",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "770/3200",
+						"damage": "5d-1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr ex",
+						"base": "4d-1",
+						"fragmentation": "2d",
+						"fragmentation_type": "cut"
+					},
+					"strength": "9†",
+					"usage": "40×46mmSR",
+					"accuracy": "1",
+					"range": "30/440",
+					"rate_of_fire": "1",
+					"shots": "1(3)",
+					"bulk": "-4",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "30/440",
+						"damage": "4d-1 cr ex [2d cut]"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": " Accessory Rails (p. HT161), +2 to Retain Weapon, 1.6x прицел, игнорирует -2 от темноты. Пламегаситель (TS76, Flash Hider).",
+			"categories": [
+				"Винтовки",
+				"Оружие"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "4d5df4b9-f72b-4104-bde1-36debe020c64",
+			"description": "FN Herstal FS2000 Tactical, 5.56×45mm",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "1300",
+			"weight": "7.9 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "5d-1"
+					},
+					"strength": "9†",
+					"accuracy": "5+2",
+					"range": "770/3200",
+					"rate_of_fire": "3",
+					"shots": "30+1(3)",
+					"bulk": "-4",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "770/3200",
+						"damage": "5d-1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": " Accessory Rails (p. HT161), +2 to Retain Weapon, игнорирует -2 от темноты (с базовым прицелом).  Пламегаситель (TS76, Flash Hider).",
+			"categories": [
+				"Винтовки",
+				"Оружие"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "b68823e6-0d1f-4848-b018-3efa1ff81729",
+			"description": "FN Herstal FS2000 Standard, 5.56×45mm",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "1500",
+			"weight": "7.9 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "5d-1"
+					},
+					"strength": "9†",
+					"accuracy": "5+2",
+					"range": "770/3200",
+					"rate_of_fire": "3",
+					"shots": "30+1(3)",
+					"bulk": "-4",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "770/3200",
+						"damage": "5d-1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": " Accessory Rails (p. HT161), +2 to Retain Weapon, 1.6x прицел, игнорирует -2 от темноты.  Пламегаситель (TS76, Flash Hider).",
+			"categories": [
+				"Винтовки",
+				"Оружие"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "93c7437f-90af-4192-8b40-0096510a199b",
+			"description": "FN Herstal F2000 Tactical, 5.56×45mm",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "1300",
+			"weight": "7.9 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "5d-1"
+					},
+					"strength": "9†",
+					"accuracy": "5+2",
+					"range": "770/3200",
+					"rate_of_fire": "14",
+					"shots": "30+1(3)",
+					"bulk": "-4",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "770/3200",
+						"damage": "5d-1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": " Accessory Rails (p. HT161), +2 to Retain Weapon, игнорирует -2 от темноты (с базовым прицелом).  Пламегаситель (TS76, Flash Hider).",
+			"categories": [
+				"Винтовки",
+				"Оружие"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "4581bed3-79d9-488c-bd16-0038599b959b",
+			"description": "FN Herstal F2000 Standard, 5.56×45mm",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "1500",
+			"weight": "7.9 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "5d-1"
+					},
+					"strength": "9†",
+					"accuracy": "5+2",
+					"range": "770/3200",
+					"rate_of_fire": "14",
+					"shots": "30+1(3)",
+					"bulk": "-4",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "770/3200",
+						"damage": "5d-1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": " Accessory Rails (p. HT161), +2 to Retain Weapon, 1.6x прицел, игнорирует -2 от темноты. Пламегаситель (TS76, Flash Hider).",
+			"categories": [
+				"Винтовки",
+				"Оружие"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "23cbd865-97ef-4900-a7cd-c483960f3a5e",
+			"description": "ЦКИБ СОО СВУ-А, 7.62×54mmR",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "1200",
+			"weight": "9.7 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "7d"
+					},
+					"strength": "10†",
+					"accuracy": "5",
+					"range": "1000/4200",
+					"rate_of_fire": "11",
+					"shots": "10+1(3)",
+					"bulk": "-5",
+					"recoil": "3",
+					"calc": {
+						"level": 0,
+						"range": "1000/4200",
+						"damage": "7d pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Accessory Rail (p. HT161) - \"ласточкин хвост\", боковое крепление для прицелов.",
+			"categories": [
+				"Винтовки",
+				"Оружие"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "29ff988c-0786-423e-9b1f-4d98d75fce3b",
+			"description": "ЦКИБ СОО СВУ-АС, 7.62×54mmR",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "1300",
+			"weight": "10.2 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "7d"
+					},
+					"strength": "10†",
+					"accuracy": "5",
+					"range": "1000/4200",
+					"rate_of_fire": "11",
+					"shots": "10+1(3)",
+					"bulk": "-5",
+					"recoil": "3",
+					"calc": {
+						"level": 0,
+						"range": "1000/4200",
+						"damage": "7d pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Accessory Rail (p. HT161) - \"ласточкин хвост\", боковое крепление для прицелов. Встроенные сошки (В412).",
+			"categories": [
+				"Винтовки",
+				"Оружие"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "d2fbff63-8a3e-4307-b7f0-c2a72f969f4b",
+			"description": "ЦКИБ СОО СВУ, 7.62×54mmR",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "1200",
+			"weight": "9.7 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "7d"
+					},
+					"strength": "10†",
+					"accuracy": "5",
+					"range": "1000/4200",
+					"rate_of_fire": "3",
+					"shots": "10+1(3)",
+					"bulk": "-5",
+					"recoil": "3",
+					"calc": {
+						"level": 0,
+						"range": "1000/4200",
+						"damage": "7d pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Accessory Rail (p. HT161) - \"ласточкин хвост\", боковое крепление для прицелов.",
+			"categories": [
+				"Винтовки",
+				"Оружие"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "f098993f-0677-4ac6-96c5-b652508a60b6",
+			"description": "ИжМаш Тигр, 7.62×54mmR",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "1200",
+			"weight": "8.5 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "7d"
+					},
+					"strength": "10†",
+					"accuracy": "5",
+					"range": "1000/4200",
+					"rate_of_fire": "3",
+					"shots": "5+1(3)",
+					"bulk": "-6",
+					"recoil": "3",
+					"calc": {
+						"level": 0,
+						"range": "1000/4200",
+						"damage": "7d pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Accessory Rail (p. HT161) - \"ласточкин хвост\", боковое крепление для прицелов.",
+			"categories": [
+				"Винтовки",
+				"Оружие"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "80e58c28-92cd-45a2-a59a-ae1bac7eedfd",
+			"description": "ИжМаш СВ-98, 7.62×51mm",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "2000",
+			"weight": "12.05 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "7d"
+					},
+					"strength": "11В",
+					"accuracy": "5",
+					"range": "1000/4200",
+					"rate_of_fire": "1",
+					"shots": "10+1(3)",
+					"bulk": "-6",
+					"recoil": "3",
+					"calc": {
+						"level": 0,
+						"range": "1000/4200",
+						"damage": "7d pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Accessory Rail (p. HT161) для прицелов, можно установить сошки и глушитель ТГП-В.",
+			"categories": [
+				"Винтовки",
+				"Оружие"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "86f75380-403c-4f29-83c3-765839e0da73",
+			"description": "ИжМаш СВ-98М, 7.62×54mmR",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "2500",
+			"weight": "7.5 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "7d"
+					},
+					"strength": "11В",
+					"accuracy": "5",
+					"range": "1000/4200",
+					"rate_of_fire": "1",
+					"shots": "10+1(3)",
+					"bulk": "-6",
+					"recoil": "3",
+					"calc": {
+						"level": 0,
+						"range": "1000/4200",
+						"damage": "7d pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Accessory Rail (p. HT161) для прицелов, можно установить сошки и глушитель ТГП-В.",
+			"categories": [
+				"Винтовки",
+				"Оружие"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "03d734b5-5eac-4425-95b2-2b7aa2dd2d88",
+			"description": "ИжМаш КО-13 «Рекорд», 7.62×54mmR",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "2000",
+			"weight": "12.05 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "7d"
+					},
+					"strength": "11В",
+					"accuracy": "5",
+					"range": "1000/4200",
+					"rate_of_fire": "1",
+					"shots": "10+1(3)",
+					"bulk": "-6",
+					"recoil": "3",
+					"calc": {
+						"level": 0,
+						"range": "1000/4200",
+						"damage": "7d pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Accessory Rail (p. HT161) для прицелов, можно установить сошки.",
+			"categories": [
+				"Винтовки",
+				"Оружие"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "e705395d-b26a-48d1-8fc5-cbbea4368ea0",
+			"description": "ИжМаш СВ-98, 7.62×54mmR",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "2000",
+			"weight": "12.05 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "7d"
+					},
+					"strength": "11В",
+					"accuracy": "5",
+					"range": "1000/4200",
+					"rate_of_fire": "1",
+					"shots": "10+1(3)",
+					"bulk": "-6",
+					"recoil": "3",
+					"calc": {
+						"level": 0,
+						"range": "1000/4200",
+						"damage": "7d pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Accessory Rail (p. HT161) для прицелов, можно установить сошки и глушитель ТГП-В.",
+			"categories": [
+				"Винтовки",
+				"Оружие"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "d5d0318a-34ad-43bb-8e7a-f8e21b7faefb",
+			"description": "SIG SG 550, 5.56×45mm",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "2500",
+			"weight": "9 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "5d"
+					},
+					"strength": "9†",
+					"accuracy": "5",
+					"range": "800/3500",
+					"rate_of_fire": "22",
+					"shots": "30+1(3)",
+					"bulk": "-5*",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "800/3500",
+						"damage": "5d pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": " Accessory Rails (p. HT161) для прицела. Модификация под магазины от AR. Встроенные сошки (НТ160), Improved-Visibility Sights (HT156), Folding Stock (HT160).",
+			"categories": [
+				"Винтовки",
+				"Оружие"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "5cdc28e2-51c4-4050-8cd3-8b1102f69e1d",
+			"description": "ИжМаш АН-94, 5.45×39mm",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "1500",
+			"weight": "8.5 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "4d+2"
+					},
+					"strength": "8†",
+					"accuracy": "5",
+					"range": "440/3300",
+					"rate_of_fire": "6#/10",
+					"shots": "30+1(3)",
+					"bulk": "-5*",
+					"recoil": "1/2",
+					"calc": {
+						"level": 0,
+						"range": "440/3300",
+						"damage": "4d+2 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Accessory Rail (p. HT161) - \"ласточкин хвост\", боковое крепление для прицелов. Malf. 16.",
+			"categories": [
+				"Винтовки",
+				"Оружие"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "8b7273a5-eb38-4b02-a29e-da6ff13718c1",
+			"description": "КБП OЦ-14-4A-03, 9×39mm",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "1000",
+			"weight": "6 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi-",
+						"base": "3d-1",
+						"armor_divisor": 2
+					},
+					"strength": "7†",
+					"usage": "9×39mm",
+					"accuracy": "5",
+					"range": "400/1700",
+					"rate_of_fire": "11",
+					"shots": "20+1(3)",
+					"bulk": "-4",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "400/1700",
+						"damage": "3d-1(2) pi-"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Можно установить глушитель и оптический прицел (ПО 4х34).",
+			"categories": [
+				"Винтовки",
+				"Оружие"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "1fdbc9fb-670e-4e58-8443-15c47f6e0e23",
+			"description": "КБП OЦ-14-4A-02, 9×39mm",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "1000",
+			"weight": "6 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi-",
+						"base": "3d-1",
+						"armor_divisor": 2
+					},
+					"strength": "7†",
+					"usage": "9×39mm",
+					"accuracy": "5",
+					"range": "400/1700",
+					"rate_of_fire": "11",
+					"shots": "20+1(3)",
+					"bulk": "-4",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "400/1700",
+						"damage": "3d-1(2) pi-"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Можно установить глушитель.",
+			"categories": [
+				"Винтовки",
+				"Оружие"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "5fbc432a-ac9c-463c-8c52-17217f8d2a8e",
+			"description": "КБП OЦ-14-4A-01, 9×39mm",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "1000",
+			"weight": "6.5 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi-",
+						"base": "3d-1",
+						"armor_divisor": 2
+					},
+					"strength": "7†",
+					"usage": "9×39mm",
+					"accuracy": "5",
+					"range": "400/1700",
+					"rate_of_fire": "11",
+					"shots": "20+1(3)",
+					"bulk": "-4",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "400/1700",
+						"damage": "3d-1(2) pi-"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "+2 to Retain Weapon.",
+			"categories": [
+				"Винтовки",
+				"Оружие"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "4043b067-b1cd-4a06-a4d7-9cc812bf7f3c",
+			"description": "КБП OЦ-14-4A 9/40, 9×39mm/40mm ВОГ-25",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "1500",
+			"weight": "8.9 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi-",
+						"base": "3d-1",
+						"armor_divisor": 2
+					},
+					"strength": "9†",
+					"usage": "9×39mm",
+					"accuracy": "5",
+					"range": "400/1700",
+					"rate_of_fire": "11",
+					"shots": "20+1(3)",
+					"bulk": "-4",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "400/1700",
+						"damage": "3d-1(2) pi-"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr ex",
+						"base": "4d+2",
+						"fragmentation": "2d",
+						"fragmentation_type": "cut"
+					},
+					"strength": "9†",
+					"usage": "40mm ВОГ-25",
+					"accuracy": "1",
+					"range": "25/440",
+					"rate_of_fire": "1",
+					"shots": "1(3)",
+					"bulk": "-3*",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "25/440",
+						"damage": "4d+2 cr ex [2d cut]"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Винтовки",
+				"Оружие"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "49bf44ad-80a1-4d50-b6f7-00fa62d21e36",
+			"description": "Norinco ТИП 67, 7.65×17mm Тип 64",
+			"tech_level": "7",
+			"legality_class": "2",
+			"value": "500",
+			"weight": "2.6 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi-",
+						"base": "1d+2"
+					},
+					"strength": "6",
+					"accuracy": "1",
+					"range": "20/300",
+					"rate_of_fire": "1/3",
+					"shots": "9+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "20/300",
+						"damage": "1d+2 pi-"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Встроенный глушитель (-2 к Слышимости). Может стрелять в самозарядном (Сс 3) и однозарядном режиме (Сс 1 и -1 к Слышимости), переключение маневром Подготовки.",
+			"categories": [
+				"Оружие",
+				"Пистолеты"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "4ac18024-4f34-47ce-a7ba-ff115afd4b8d",
+			"description": "Norinco ТИП 64, 7.65×17mm Тип 64",
+			"tech_level": "7",
+			"legality_class": "2",
+			"value": "450",
+			"weight": "3.7 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi-",
+						"base": "1d+2"
+					},
+					"strength": "6",
+					"accuracy": "1",
+					"range": "20/300",
+					"rate_of_fire": "1/3",
+					"shots": "9+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "20/300",
+						"damage": "1d+2 pi-"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Встроенный глушитель (-2 к Слышимости). Может стрелять в самозарядном (Сс 3) и однозарядном режиме (Сс 1 и -1 к Слышимости), переключение маневром Подготовки.",
+			"categories": [
+				"Оружие",
+				"Пистолеты"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "63ba53ab-d4ea-4660-8843-52a85430b019",
+			"description": "ИжМех ИЖ-71/071-103, 9×17mm",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "250",
+			"weight": "1.8 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d-1"
+					},
+					"strength": "8",
+					"accuracy": "2",
+					"range": "110/1200",
+					"rate_of_fire": "3",
+					"shots": "12+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "110/1200",
+						"damage": "2d-1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Оружие",
+				"Пистолеты"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "98918e00-e120-40f2-97c8-5a3a1e150b1d",
+			"description": "ИжМех ИЖ-71/071-102, 9×17mm",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "250",
+			"weight": "1.8 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d-1"
+					},
+					"strength": "8",
+					"accuracy": "2",
+					"range": "110/1200",
+					"rate_of_fire": "3",
+					"shots": "10+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "110/1200",
+						"damage": "2d-1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Оружие",
+				"Пистолеты"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "9d94518d-e805-4ac8-b216-d5b806b9aad5",
+			"description": "ИжМех ИЖ-71/071-101, 9×17mm",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "250",
+			"weight": "1.8 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d-1"
+					},
+					"strength": "8",
+					"accuracy": "2",
+					"range": "110/1200",
+					"rate_of_fire": "3",
+					"shots": "8+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "110/1200",
+						"damage": "2d-1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Оружие",
+				"Пистолеты"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "ba3ad7d3-ce59-43f3-8d54-65bb25b046b6",
+			"description": "ИжМех ПЯ МП-446 \"Викинг\", 9×19mm",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "600",
+			"weight": "2.1 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d+2"
+					},
+					"strength": "8",
+					"accuracy": "2",
+					"range": "160/1800",
+					"rate_of_fire": "3",
+					"shots": "10+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "160/1800",
+						"damage": "2d+2 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Accessory Rail (p. HT161). Malf. 16. -1 к Malf. при стрельбе +P патронами.",
+			"categories": [
+				"Оружие",
+				"Пистолеты"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "b9d17739-1956-4953-a72a-b825a0537b26",
+			"description": "ИжМех ПЯ МП-443 \"Грач\", 9×19mm +Р",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "600",
+			"weight": "2.1 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d+2"
+					},
+					"strength": "8",
+					"accuracy": "2",
+					"range": "160/1800",
+					"rate_of_fire": "3",
+					"shots": "17+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "160/1800",
+						"damage": "2d+2 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Accessory Rail (p. HT161). Malf. 16.",
+			"categories": [
+				"Оружие",
+				"Пистолеты"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "a45a1d61-2e70-43cb-b67e-5ddad0d3eae6",
+			"description": "Форт-17, 9×18mm",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "480",
+			"weight": "1.15 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d"
+					},
+					"strength": "8",
+					"accuracy": "2",
+					"range": "150/1800",
+					"rate_of_fire": "3",
+					"shots": "15+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "150/1800",
+						"damage": "2d pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Accessory Rail (p. HT161).",
+			"categories": [
+				"Оружие",
+				"Пистолеты"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "340285ea-2605-4af8-8f19-dfedf3d2db44",
+			"description": "Форт-15, 9×19mm",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "480",
+			"weight": "1.53 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d+2"
+					},
+					"strength": "8",
+					"accuracy": "2",
+					"range": "150/1800",
+					"rate_of_fire": "3",
+					"shots": "12+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "150/1800",
+						"damage": "2d+2 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Accessory Rail (p. HT161).",
+			"categories": [
+				"Оружие",
+				"Пистолеты"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "9da46d59-e41a-4b5a-b729-78fc6392b0b0",
+			"description": "Форт-12, 9×19mm",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "450",
+			"weight": "1.53 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d"
+					},
+					"strength": "8",
+					"accuracy": "2",
+					"range": "150/1800",
+					"rate_of_fire": "3",
+					"shots": "12+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "150/1800",
+						"damage": "2d pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Оружие",
+				"Пистолеты"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "cc8b3e93-5bec-4e0f-8de7-a285bebd81e8",
+			"description": "Beretta Mod 12, 9×19mm",
+			"tech_level": "7",
+			"legality_class": "2",
+			"value": "500",
+			"weight": "6.6 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "3d-1"
+					},
+					"strength": "8†",
+					"accuracy": "3",
+					"range": "160/1800",
+					"rate_of_fire": "9",
+					"shots": "20(3)",
+					"bulk": "-3*",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "160/1800",
+						"damage": "3d-1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "+2 to Retain Weapon.",
+			"categories": [
+				"Оружие",
+				"Пистолеты-Пулеметы"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "75bdec7e-d569-4dce-a6d1-a8b44c612f5a",
+			"description": "Beretta Mod 12s, 9×19mm",
+			"tech_level": "7",
+			"legality_class": "2",
+			"value": "550",
+			"weight": "7.1 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "3d-1"
+					},
+					"strength": "8†",
+					"accuracy": "3",
+					"range": "160/1800",
+					"rate_of_fire": "9",
+					"shots": "32(3)",
+					"bulk": "-3*",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "160/1800",
+						"damage": "3d-1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "+2 to Retain Weapon.",
+			"categories": [
+				"Оружие",
+				"Пистолеты-Пулеметы"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "68ed3015-4738-4ae1-b220-093452c7db7e",
+			"description": "Walther MPK, 9×19mm",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "750",
+			"weight": "6.17 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "3d-1"
+					},
+					"strength": "8†",
+					"accuracy": "3",
+					"range": "160/1800",
+					"rate_of_fire": "9",
+					"shots": "32(3)",
+					"bulk": "-3*",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "160/1800",
+						"damage": "3d-1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Оружие",
+				"Пистолеты-Пулеметы"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "a465b509-d220-4940-a6e0-6c78310a6899",
+			"description": "Walther MPL, 9×19mm",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "800",
+			"weight": "6.6 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "3d-1"
+					},
+					"strength": "8†",
+					"accuracy": "3",
+					"range": "160/1800",
+					"rate_of_fire": "9",
+					"shots": "32(3)",
+					"bulk": "-4*",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "160/1800",
+						"damage": "3d-1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Оружие",
+				"Пистолеты-Пулеметы"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "6279522c-cb10-4188-8707-f831c036fd81",
+			"description": "ЗлатМаш КСО-9 «Кречет», 9×19mm ",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "500",
+			"weight": "7 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d+2"
+					},
+					"strength": "7†",
+					"accuracy": "2",
+					"range": "160/1800",
+					"rate_of_fire": "3",
+					"shots": "10(3)",
+					"bulk": "-4*",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "160/1800",
+						"damage": "2d+2 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Не может стрелять +Р патронами. Есть крепления для прицелов и других приспособлений. Компенсатор (бонус +1 при 3 и больше выстрелов, +2 на Слух и Зрение, чтобы заметить стрелка. TS76)",
+			"categories": [
+				"Оружие",
+				"Пистолеты-Пулеметы"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "6ee8b9f2-e25f-487d-9fa1-342fa8aa4e41",
+			"description": "ЗлатМаш ПКСК-10, 9×17mm ",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "200",
+			"weight": "3.5 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d-1"
+					},
+					"strength": "7†",
+					"accuracy": "2",
+					"range": "110/1200",
+					"rate_of_fire": "3",
+					"shots": "10(3)",
+					"bulk": "-3*",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "110/1200",
+						"damage": "2d-1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Не может стрелять +Р патронами. Нельзя установить компенсаторы/глушители.",
+			"categories": [
+				"Оружие",
+				"Пистолеты-Пулеметы"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "9f3a8dc7-ec25-40a8-a8b4-ed478210e0c0",
+			"description": "ЗлатМаш ПП-9 «Клин», 9×18mm",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "200",
+			"weight": "2.9 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d"
+					},
+					"strength": "7†",
+					"accuracy": "2",
+					"range": "100/1300",
+					"rate_of_fire": "14",
+					"shots": "30(3)",
+					"bulk": "-3*",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "100/1300",
+						"damage": "2d pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Оружие",
+				"Пистолеты-Пулеметы"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "4b115534-c2d1-4bb9-8254-274a21a443e6",
+			"description": "ЗлатМаш ПП-91 «Кедр», 9×18mm",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "200",
+			"weight": "3 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d"
+					},
+					"strength": "7†",
+					"accuracy": "2",
+					"range": "100/1300",
+					"rate_of_fire": "14",
+					"shots": "30(3)",
+					"bulk": "-3*",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "100/1300",
+						"damage": "2d pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Не может стрелять +Р патронами. ",
+			"categories": [
+				"Оружие",
+				"Пистолеты-Пулеметы"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "20a3e1db-e2a9-4e99-aa09-26c149e11019",
+			"description": "ЗлатМаш ПП-91-01 «Кедр-Б», 9×18mm",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "550",
+			"weight": "4 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d-1"
+					},
+					"strength": "7†",
+					"accuracy": "2",
+					"range": "80/800",
+					"rate_of_fire": "16",
+					"shots": "30(3)",
+					"bulk": "-4*",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "80/800",
+						"damage": "2d-1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Не может стрелять +Р патронами. Встроенный глушитель (-2 на Слух).",
+			"categories": [
+				"Оружие",
+				"Пистолеты-Пулеметы"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "39b012a3-9c4c-4015-b4fe-148dd15cea72",
+			"description": "ИжМаш ПП-19-01 исп.10 «Витязь», 9×19mm",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "450",
+			"weight": "6.38 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "3d-1"
+					},
+					"strength": "8†",
+					"accuracy": "3",
+					"range": "170/1900",
+					"rate_of_fire": "11",
+					"shots": "30+1(3)",
+					"bulk": "-4*",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "170/1900",
+						"damage": "3d-1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Accessory Rail (p. HT161) - \"ласточкин хвост\", боковое крепление для прицелов. Компенсатор (бонус +1 при 3 и больше выстрелов, +2 на Слух и Зрение, чтобы заметить стрелка. TS76)",
+			"categories": [
+				"Оружие",
+				"Пистолеты-Пулеметы"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "a050f786-9b53-4d79-bdae-d76f4af56b33",
+			"description": "ИжМаш ПП-19-01 исп.20 «Витязь-СН», 9×19mm",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "550",
+			"weight": "6.38 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "3d-1"
+					},
+					"strength": "8†",
+					"accuracy": "3",
+					"range": "170/1900",
+					"rate_of_fire": "11",
+					"shots": "30+1(3)",
+					"bulk": "-4*",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "170/1900",
+						"damage": "3d-1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Accessory Rail (p. HT161) - \"ласточкин хвост\", боковое крепление, а также планка Пикатини для установки прицелов. Компенсатор (бонус +1 при 3 и больше выстрелов, +2 на Слух и Зрение, чтобы заметить стрелка. TS76)",
+			"categories": [
+				"Оружие",
+				"Пистолеты-Пулеметы"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "f380a287-7292-4248-b7d6-699c9dc069b5",
+			"description": "ИжМаш Сайга-9 исп. 02, 9×19mm",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "350",
+			"weight": "6.38 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "3d-1"
+					},
+					"strength": "8†",
+					"accuracy": "3",
+					"range": "170/1900",
+					"rate_of_fire": "3",
+					"shots": "10+1(3)",
+					"bulk": "-4*",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "170/1900",
+						"damage": "3d-1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Accessory Rail (p. HT161) планка пикатини для прицелов. Компенсатор (бонус +1 при 3 и больше выстрелов, +2 на Слух и Зрение, чтобы заметить стрелка. TS76)",
+			"categories": [
+				"Оружие",
+				"Пистолеты-Пулеметы"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "d5c59e6e-3c20-4222-9c1d-f9b5de195859",
+			"description": "ИжМаш Сайга-9 исп. 22, 9×19mm",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "600",
+			"weight": "7.3 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "3d-1"
+					},
+					"strength": "8†",
+					"accuracy": "3",
+					"range": "170/1900",
+					"rate_of_fire": "3",
+					"shots": "10+1(3)",
+					"bulk": "-4*",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "170/1900",
+						"damage": "3d-1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Accessory Rails (p. HT161) планки пикатини для прицелов и других приспособлений. Компенсатор (бонус +1 при 3 и больше выстрелов, +2 на Слух и Зрение, чтобы заметить стрелка. TS76). Съемный ДТК (-1 к Слуху).",
+			"categories": [
+				"Оружие",
+				"Пистолеты-Пулеметы"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "a173097c-f05e-4fa1-b3ff-6e760a17a060",
+			"description": "ИжМаш Сайга-9, 9×19mm",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "350",
+			"weight": "6.38 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "3d-1"
+					},
+					"strength": "8†",
+					"accuracy": "3",
+					"range": "170/1900",
+					"rate_of_fire": "3",
+					"shots": "10+1(3)",
+					"bulk": "-4*",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "170/1900",
+						"damage": "3d-1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Компенсатор (бонус +1 при 3 и больше выстрелов, +2 на Слух и Зрение, чтобы заметить стрелка. TS76)",
+			"categories": [
+				"Оружие",
+				"Пистолеты-Пулеметы"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "d1826a22-3e82-4929-8057-f25667c8882c",
+			"description": "ИжМаш Сайга-9, 9×19mm",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "350",
+			"weight": "6.38 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "3d-1"
+					},
+					"strength": "8†",
+					"accuracy": "3",
+					"range": "170/1900",
+					"rate_of_fire": "3",
+					"shots": "30(3)",
+					"bulk": "-4*",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "170/1900",
+						"damage": "3d-1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Компенсатор (бонус +1 при 3 и больше выстрелов, +2 на Слух и Зрение, чтобы заметить стрелка. TS76)",
+			"categories": [
+				"Оружие",
+				"Пистолеты-Пулеметы"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "dc41681e-f540-4fa7-b4f9-3130f4097287",
+			"description": "ИжМаш Сайга-9, 9×21mm",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "350",
+			"weight": "6.38 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "3d-1"
+					},
+					"strength": "8†",
+					"accuracy": "3",
+					"range": "170/1800",
+					"rate_of_fire": "3",
+					"shots": "10+1(3)",
+					"bulk": "-4*",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "170/1800",
+						"damage": "3d-1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Accessory Rail (p. HT161) - планка Пикатини для установки прицелов. Компенсатор (бонус +1 при 3 и больше выстрелов, +2 на Слух и Зрение, чтобы заметить стрелка. TS76)",
+			"categories": [
+				"Оружие",
+				"Пистолеты-Пулеметы"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "2b836493-6e55-4192-ac34-e3b8ba3829ab",
+			"description": "КБП ОЦ-02, 9×18mm",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "380",
+			"weight": "2.61 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d+1"
+					},
+					"strength": "8†",
+					"accuracy": "2",
+					"range": "100/1300",
+					"rate_of_fire": "14",
+					"shots": "30(3)",
+					"bulk": "-3*",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "100/1300",
+						"damage": "2d+1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Не может стрелять +Р патронами. +2 to Retain Weapon.",
+			"categories": [
+				"Оружие",
+				"Пистолеты-Пулеметы"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "a869a315-8d35-4ff8-bac7-5f6e2aeb6d8b",
+			"description": "КБП ПП-2000, 9×19mm",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "1200",
+			"weight": "3.3 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d+2"
+					},
+					"strength": "8†",
+					"accuracy": "2",
+					"range": "160/1800",
+					"rate_of_fire": "13",
+					"shots": "30(3)",
+					"bulk": "-3*",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "160/1800",
+						"damage": "2d+2 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "+2 to Retain Weapon. Пламегаситель (TS76, Flash Hider). Крепления для прицелов и других приспособлений.",
+			"categories": [
+				"Оружие",
+				"Пистолеты-Пулеметы"
+			],
+			"open": false
+		}
+	]
+}
