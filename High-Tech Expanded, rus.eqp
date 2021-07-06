@@ -4,6 +4,2667 @@
 	"id": "6a0125b5-a8c6-4dd5-a988-f8d4a12fecf4",
 	"rows": [
 		{
+			"type": "equipment",
+			"id": "4b946608-3384-411f-8896-622854902c6c",
+			"quantity": 1,
+			"description": "Граната \"Хаттабка\", ВОГ-17",
+			"tech_level": "7",
+			"legality_class": "1",
+			"value": "10",
+			"weight": "0.88 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr ex",
+						"base": "4d",
+						"fragmentation": "1d+2",
+						"fragmentation_type": "cut"
+					},
+					"bulk": "-1",
+					"calc": {
+						"level": 0,
+						"range": "",
+						"damage": "4d cr ex [1d+2 cut]"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					]
+				}
+			],
+			"notes": "Запал 3-4с.",
+			"categories": [
+				"Гранаты",
+				"Оружие"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "e0c65c7b-3ccc-4f1e-8a4e-406074f0121f",
+			"quantity": 1,
+			"description": "Граната \"Хаттабка\", ВОГ-25",
+			"tech_level": "7",
+			"legality_class": "1",
+			"value": "10",
+			"weight": "0.8 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr ex",
+						"base": "4d-1",
+						"fragmentation": "2d",
+						"fragmentation_type": "cut"
+					},
+					"bulk": "-1",
+					"calc": {
+						"level": 0,
+						"range": "",
+						"damage": "4d-1 cr ex [2d cut]"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					]
+				}
+			],
+			"notes": "Запал 3-4с.",
+			"categories": [
+				"Гранаты",
+				"Оружие"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "d215586f-e226-4789-a1d7-3a3b48535ed3",
+			"quantity": 1,
+			"description": "Ф-1",
+			"tech_level": "7",
+			"legality_class": "1",
+			"value": "20",
+			"weight": "1.3 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr ex",
+						"base": "4d+2",
+						"fragmentation": "2d",
+						"fragmentation_type": "cut"
+					},
+					"bulk": "-2",
+					"calc": {
+						"level": 0,
+						"range": "",
+						"damage": "4d+2 cr ex [2d cut]"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					]
+				}
+			],
+			"notes": "Запал 3-4с.",
+			"categories": [
+				"Гранаты",
+				"Оружие"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "a422ed29-3187-4637-8bb7-a7b5a42a5575",
+			"quantity": 1,
+			"description": "РГД-5",
+			"tech_level": "8",
+			"legality_class": "1",
+			"value": "20",
+			"weight": "0.7 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr ex",
+						"base": "6d-1",
+						"fragmentation": "3d",
+						"fragmentation_type": "cut"
+					},
+					"bulk": "-2",
+					"calc": {
+						"level": 0,
+						"range": "",
+						"damage": "6d-1 cr ex [3d cut]"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					]
+				}
+			],
+			"notes": "Запал 3-4с.",
+			"categories": [
+				"Гранаты",
+				"Оружие"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "1910f007-45d4-4fff-b4c0-f7953c954bf3",
+			"quantity": 1,
+			"description": "ПМН",
+			"tech_level": "8",
+			"legality_class": "1",
+			"value": "25",
+			"weight": "1.2 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr ex",
+						"base": "8d-1"
+					},
+					"bulk": "-3",
+					"calc": {
+						"level": 0,
+						"range": "",
+						"damage": "8d-1 cr ex"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Explosives",
+							"specialization": "Demolition",
+							"modifier": 4
+						},
+						{
+							"type": "skill",
+							"name": "Soldier"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Traps",
+							"modifier": 2
+						}
+					]
+				}
+			],
+			"categories": [
+				"Мины",
+				"Оружие"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "fdb6a2f0-e35d-42ba-85f1-3d1031f0a022",
+			"quantity": 1,
+			"description": "ОЗМ-3",
+			"tech_level": "8",
+			"legality_class": "1",
+			"value": "60",
+			"weight": "7 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr ex",
+						"base": "5d",
+						"fragmentation": "4d",
+						"fragmentation_type": "cut"
+					},
+					"bulk": "-3",
+					"calc": {
+						"level": 0,
+						"range": "",
+						"damage": "5d cr ex [4d cut]"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Explosives",
+							"specialization": "Demolition",
+							"modifier": 4
+						},
+						{
+							"type": "skill",
+							"name": "Soldier"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Traps",
+							"modifier": 2
+						}
+					]
+				}
+			],
+			"categories": [
+				"Мины",
+				"Оружие"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "7f10ba79-852d-47b6-8608-301513bb6a5b",
+			"quantity": 1,
+			"description": "ОЗМ-72",
+			"tech_level": "8",
+			"legality_class": "1",
+			"value": "120",
+			"weight": "10 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr ex",
+						"base": "6d",
+						"fragmentation": "1d",
+						"fragmentation_type": "cut"
+					},
+					"bulk": "-2",
+					"calc": {
+						"level": 0,
+						"range": "",
+						"damage": "6d cr ex [1d cut]"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Explosives",
+							"specialization": "Demolition",
+							"modifier": 4
+						},
+						{
+							"type": "skill",
+							"name": "Soldier"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Traps",
+							"modifier": 2
+						}
+					]
+				},
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi-",
+						"base": "2d",
+						"armor_divisor": 0.5
+					},
+					"usage": "linked",
+					"range": "50/900",
+					"rate_of_fire": "1x660",
+					"recoil": "1",
+					"calc": {
+						"level": 0,
+						"range": "50/900",
+						"damage": "2d(0.5) pi-"
+					}
+				}
+			],
+			"notes": "Навык linked равен 18 (9+9).",
+			"categories": [
+				"Мины",
+				"Оружие"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "1b2e846f-b4f1-470c-955d-3011559e3695",
+			"quantity": 1,
+			"description": "МОН-50",
+			"tech_level": "8",
+			"legality_class": "1",
+			"value": "150",
+			"weight": "4.4 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr ex",
+						"base": "6d"
+					},
+					"bulk": "-3",
+					"calc": {
+						"level": 0,
+						"range": "",
+						"damage": "6d cr ex"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Explosives",
+							"specialization": "Demolition",
+							"modifier": 4
+						},
+						{
+							"type": "skill",
+							"name": "Soldier"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Traps",
+							"modifier": 2
+						}
+					]
+				},
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi-",
+						"base": "2d",
+						"armor_divisor": 0.5
+					},
+					"usage": "linked",
+					"range": "50/900",
+					"rate_of_fire": "1x540",
+					"recoil": "1",
+					"calc": {
+						"level": 0,
+						"range": "50/900",
+						"damage": "2d(0.5) pi-"
+					}
+				}
+			],
+			"notes": "Навык linked равен 18 (9+9).",
+			"categories": [
+				"Мины",
+				"Оружие"
+			]
+		},
+		{
+			"type": "equipment_container",
+			"id": "00bcc3ee-cec8-4e62-838b-a2a627f6f6c5",
+			"description": "ЦКИБ СОО РГ-6, 40mm ВОГ-25",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "1500",
+			"weight": "9 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr ex",
+						"base": "4d+2",
+						"fragmentation": "2d",
+						"fragmentation_type": "cut"
+					},
+					"strength": "9T",
+					"usage": "40mm ВОГ-25",
+					"accuracy": "1",
+					"range": "25/440",
+					"rate_of_fire": "3",
+					"shots": "6(3i)",
+					"bulk": "-6*",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "25/440",
+						"damage": "4d+2 cr ex [2d cut]"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Гранатометы",
+				"Оружие"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "206c4dac-8aa3-4d30-a9b5-7b0f0328d0ee",
+			"description": "КБП ГП-30, 40mm ВОГ-25",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "450",
+			"weight": "2.85 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr ex",
+						"base": "4d+2",
+						"fragmentation": "2d",
+						"fragmentation_type": "cut"
+					},
+					"strength": "9T",
+					"usage": "40mm ВОГ-25",
+					"accuracy": "1",
+					"range": "25/440",
+					"rate_of_fire": "1",
+					"shots": "1",
+					"bulk": "-4",
+					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "25/440",
+						"damage": "4d+2 cr ex [2d cut]"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Подствольный гранатомет.",
+			"categories": [
+				"Гранатометы",
+				"Оружие"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "cd235933-48d0-4958-b367-2c274e6307f8",
+			"description": "Базальт РПГ-18 «Муха», 64mm",
+			"tech_level": "7",
+			"legality_class": "1",
+			"value": "500",
+			"weight": "5.9 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr ex",
+						"base": "6d",
+						"armor_divisor": 10
+					},
+					"strength": "6Т",
+					"accuracy": "1",
+					"range": "10/1100",
+					"rate_of_fire": "1",
+					"shots": "1",
+					"bulk": "-4",
+					"recoil": "1",
+					"calc": {
+						"level": 0,
+						"range": "10/1100",
+						"damage": "6d(10) cr ex"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon"
+						}
+					]
+				},
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr ex",
+						"base": "6d"
+					},
+					"usage": "linked",
+					"calc": {
+						"level": 0,
+						"range": "",
+						"damage": "6d cr ex"
+					}
+				},
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "burn",
+						"base": "1d+2"
+					},
+					"usage": "Hazardous backblast",
+					"calc": {
+						"level": 0,
+						"range": "",
+						"damage": "1d+2 burn"
+					}
+				}
+			],
+			"categories": [
+				"Гранатометы",
+				"Оружие"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "94bd0bce-7da4-42b4-8574-00451b1334f9",
+			"description": "Techno Arms MAG-7, 12G 2.5”",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "650",
+			"weight": "9 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d"
+					},
+					"strength": "12†",
+					"usage": "2.5”",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "3x7",
+					"shots": "5+1(3)",
+					"bulk": "-4",
+					"recoil": "1/5",
+					"calc": {
+						"level": 0,
+						"range": "40/800",
+						"damage": "1d pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Деревянный приклад.",
+			"categories": [
+				"Оружие",
+				"Ружья"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "fb804771-bde3-4902-80e7-213736c9f1e4",
+			"description": "Techno Arms MAG-7, 12G 2.5”",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "650",
+			"weight": "8 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d"
+					},
+					"strength": "12†",
+					"usage": "2.5”",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "3x7",
+					"shots": "5+1(3)",
+					"bulk": "-4*",
+					"recoil": "1/5",
+					"calc": {
+						"level": 0,
+						"range": "40/800",
+						"damage": "1d pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Складной приклад.",
+			"categories": [
+				"Оружие",
+				"Ружья"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "5823a861-5661-456f-b4b9-c85bb552565f",
+			"description": "Techno Arms MAG-7, 12G 2.5”",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "600",
+			"weight": "7 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d"
+					},
+					"strength": "12†",
+					"usage": "2.5”",
+					"accuracy": "2",
+					"range": "40/800",
+					"rate_of_fire": "3x7",
+					"shots": "5+1(3)",
+					"bulk": "-3",
+					"recoil": "1/5",
+					"calc": {
+						"level": 0,
+						"range": "40/800",
+						"damage": "1d pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Без приклада.",
+			"categories": [
+				"Оружие",
+				"Ружья"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "c30000eb-eaef-47b7-b15f-4ad6dc92706d",
+			"description": "ИжМаш МР-155, 12G 3”",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "660",
+			"weight": "6.9 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+2"
+					},
+					"strength": "10†",
+					"usage": "3”",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "2x12",
+					"shots": "3+1(2i)",
+					"bulk": "-6",
+					"recoil": "1/4",
+					"calc": {
+						"level": 0,
+						"range": "40/800",
+						"damage": "1d+2 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Оружие",
+				"Ружья"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "e4861516-d24f-44fd-9e85-5d3bae73354b",
+			"description": "ИжМаш Сайга-12К, 12G 3”",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "1100",
+			"weight": "6.15 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+2"
+					},
+					"strength": "10†",
+					"usage": "3”",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "2x12",
+					"shots": "5+1(3)",
+					"bulk": "-5",
+					"recoil": "1/4",
+					"calc": {
+						"level": 0,
+						"range": "40/800",
+						"damage": "1d+2 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "10†",
+					"usage": "2.75”",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "2x9",
+					"shots": "5+1(3)",
+					"bulk": "-5-",
+					"recoil": "1/4",
+					"calc": {
+						"level": 0,
+						"range": "40/800",
+						"damage": "1d+1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Оружие",
+				"Ружья"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "0a0f0df1-8fee-487b-9e58-e58a5fdbe030",
+			"description": "ИжМаш МР-133К, 12G 3”",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "500",
+			"weight": "6.6 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+2"
+					},
+					"strength": "10†",
+					"usage": "3”",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "2x12",
+					"shots": "5+1(3)",
+					"bulk": "-5",
+					"recoil": "1/5",
+					"calc": {
+						"level": 0,
+						"range": "40/800",
+						"damage": "1d+2 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Оружие",
+				"Ружья"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "75552915-d732-4d98-ac1b-5f07b48bf464",
+			"description": "ИжМаш МР-133, 12G 3”",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "500",
+			"weight": "6.6 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+2"
+					},
+					"strength": "10†",
+					"usage": "3”",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "2x12",
+					"shots": "4+1(2i)",
+					"bulk": "-5",
+					"recoil": "1/5",
+					"calc": {
+						"level": 0,
+						"range": "40/800",
+						"damage": "1d+2 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Оружие",
+				"Ружья"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "64d30bc1-deb1-4122-909d-9d325ca5e8d3",
+			"description": "ИжМаш МР-133, 12G 2.75”",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "500",
+			"weight": "6.6 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "10†",
+					"usage": "2.75\"",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "2x9",
+					"shots": "4+1(2i)",
+					"bulk": "-5",
+					"recoil": "1/5",
+					"calc": {
+						"level": 0,
+						"range": "40/800",
+						"damage": "1d+1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Нельзя стрелять 3\", +P патронами.",
+			"categories": [
+				"Оружие",
+				"Ружья"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "188f395e-fbd0-47c3-8e47-64e294914c29",
+			"description": "ИЖМех ИЖ-27, Обрез, 12G 2.75”",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "800",
+			"weight": "3.2 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "13†",
+					"usage": "2.75\"",
+					"accuracy": "1",
+					"range": "40/800",
+					"rate_of_fire": "2x9",
+					"shots": "2(3i)",
+					"bulk": "-3",
+					"recoil": "1/6",
+					"calc": {
+						"level": 0,
+						"range": "40/800",
+						"damage": "1d+1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "+1 к броскам Слуха и Зрения чтобы определить положение стреляющего в темноте.",
+			"categories": [
+				"Оружие",
+				"Ружья"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"id": "1c0d7950-ca9c-4a49-868e-e6fea7bf9391",
+			"description": "ИЖМех ИЖ-27, 12G 3”",
+			"tech_level": "7",
+			"legality_class": "3",
+			"value": "800",
+			"weight": "7.2 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+2"
+					},
+					"strength": "11†",
+					"usage": "3”",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "2x12",
+					"shots": "2(3i)",
+					"bulk": "-6",
+					"recoil": "1/5",
+					"calc": {
+						"level": 0,
+						"range": "40/800",
+						"damage": "1d+2 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Choked - очень короткое расстояние - на 8 ярдах (20%), -1 к Guns после 8 ярдов, но количество попаданий умножается на 1.5 (HT PGV1, стр. 24).",
+			"categories": [
+				"Оружие",
+				"Ружья"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"id": "c01b9c13-28d9-4694-bb51-08f3ead40326",
+			"description": "ИЖМех ИЖ-58, Обрез, 20G 2.75”",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "600",
+			"weight": "2.8 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "13†",
+					"usage": "2.75”",
+					"accuracy": "1",
+					"range": "40/800",
+					"rate_of_fire": "2x7",
+					"shots": "2(3i)",
+					"bulk": "-3",
+					"recoil": "1/6",
+					"calc": {
+						"level": 0,
+						"range": "40/800",
+						"damage": "1d+1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "+1 к броскам Слуха и Зрения чтобы определить положение стреляющего в темноте. Нельзя стрелять 3\", +P патронами.",
+			"categories": [
+				"Оружие",
+				"Ружья"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"id": "29e2dc3a-6115-4650-a18c-c868a12a7b4f",
+			"description": "ИЖМех ИЖ-58, Обрез, 12G 2.75”",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "600",
+			"weight": "2.8 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "13†",
+					"usage": "2.75”",
+					"accuracy": "1",
+					"range": "40/800",
+					"rate_of_fire": "2x9",
+					"shots": "2(3i)",
+					"bulk": "-3",
+					"recoil": "1/6",
+					"calc": {
+						"level": 0,
+						"range": "40/800",
+						"damage": "1d+1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "+1 к броскам Слуха и Зрения чтобы определить положение стреляющего в темноте. Нельзя стрелять 3\", +P патронами.",
+			"categories": [
+				"Оружие",
+				"Ружья"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"id": "8ba053ea-a09d-40b0-86b8-870489e2a57a",
+			"description": "ИЖМех ИЖ-58, 20G 2.75”",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "600",
+			"weight": "5.8 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "11†",
+					"usage": "2.75\"",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "2x7",
+					"shots": "2(3i)",
+					"bulk": "-6",
+					"recoil": "1/5",
+					"calc": {
+						"level": 0,
+						"range": "40/800",
+						"damage": "1d+1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Choked - очень короткое расстояние - на 8 ярдах (20%), -1 к Guns после 8 ярдов, но количество попаданий умножается на 1.5 (HT PGV1, стр. 24). Нельзя стрелять 3\", +P патронами.",
+			"categories": [
+				"Оружие",
+				"Ружья"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"id": "a3af77b3-b8c3-4fd9-a91f-2d83f596586d",
+			"description": "ИЖМех ИЖ-58, 12G 2.75”",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "600",
+			"weight": "5.8 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "11†",
+					"usage": "2.75\"",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "2x9",
+					"shots": "2(3i)",
+					"bulk": "-6",
+					"recoil": "1/5",
+					"calc": {
+						"level": 0,
+						"range": "40/800",
+						"damage": "1d+1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Choked - очень короткое расстояние - на 8 ярдах (20%), -1 к Guns после 8 ярдов, но количество попаданий умножается на 1.5 (HT PGV1, стр. 24). Нельзя стрелять 3\", +P патронами.",
+			"categories": [
+				"Оружие",
+				"Ружья"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"id": "3c85bd84-7a57-4dd9-9cdf-f76e8a67a67a",
+			"description": "ИЖМех ИЖ-43Е, Обрез, 12G 3”",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "850",
+			"weight": "3.2 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+2"
+					},
+					"strength": "13†",
+					"usage": "3”",
+					"accuracy": "1",
+					"range": "40/800",
+					"rate_of_fire": "2x12",
+					"shots": "2(3i)",
+					"bulk": "-3",
+					"recoil": "1/6",
+					"calc": {
+						"level": 0,
+						"range": "40/800",
+						"damage": "1d+2 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "+1 к броскам Слуха и Зрения чтобы определить положение стреляющего в темноте.",
+			"categories": [
+				"Оружие",
+				"Ружья"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"id": "9ac77b1c-87bd-4295-ba9e-2029806810e8",
+			"description": "ИЖМех ИЖ-43 Обрез, 12G 2.75”",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "850",
+			"weight": "3.6 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "13†",
+					"usage": "2.75\"",
+					"accuracy": "1",
+					"range": "40/800",
+					"rate_of_fire": "2x9",
+					"shots": "2(3i)",
+					"bulk": "-3",
+					"recoil": "1/6",
+					"calc": {
+						"level": 0,
+						"range": "40/800",
+						"damage": "1d+1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Choked - очень короткое расстояние - на 8 ярдах (20%), -1 к Guns после 8 ярдов, но количество попаданий умножается на 1.5 (HT PGV1, стр. 24).",
+			"categories": [
+				"Оружие",
+				"Ружья"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"id": "5401060b-f09f-420f-8f44-f5bd645402c5",
+			"description": "ИЖМех ИЖ-43Е, 12G 3”",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "850",
+			"weight": "6.6 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+2"
+					},
+					"strength": "11†",
+					"usage": "3”",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "2x12",
+					"shots": "2(3i)",
+					"bulk": "-6",
+					"recoil": "1/5",
+					"calc": {
+						"level": 0,
+						"range": "40/800",
+						"damage": "1d+2 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Choked - очень короткое расстояние - на 8 ярдах (20%), -1 к Guns после 8 ярдов, но количество попаданий умножается на 1.5 (HT PGV1, стр. 24).",
+			"categories": [
+				"Оружие",
+				"Ружья"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"id": "3e673744-f579-4cae-826d-488eb39f4c5d",
+			"description": "ИЖМех ИЖ-43, 12G 2.75”",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "850",
+			"weight": "6.6 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "11†",
+					"usage": "2.75”",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "2x9",
+					"shots": "2(3i)",
+					"bulk": "-6",
+					"recoil": "1/5",
+					"calc": {
+						"level": 0,
+						"range": "40/800",
+						"damage": "1d+1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Choked - очень короткое расстояние - на 8 ярдах (20%), -1 к Guns после 8 ярдов, но количество попаданий умножается на 1.5 (HT PGV1, стр. 24). Нельзя стрелять 3\", +P патронами.",
+			"categories": [
+				"Оружие",
+				"Ружья"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"id": "1e782554-0162-4e21-b9b4-26a3c6ee6b7e",
+			"description": "ТОЗ 106 (МЦ 20-04), 20G 2.75”",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "240",
+			"weight": "5 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "10†",
+					"usage": "2.75”",
+					"accuracy": "2",
+					"range": "40/800",
+					"rate_of_fire": "1x7",
+					"shots": "2+1(3)",
+					"bulk": "-4*",
+					"recoil": "1/5",
+					"calc": {
+						"level": 0,
+						"range": "40/800",
+						"damage": "1d+1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Choked - очень короткое расстояние - на 8 ярдах (20%), -1 к Guns после 8 ярдов, но количество попаданий умножается на 1.5 (HT PGV1, стр. 24). Нельзя стрелять 3\", +P патронами.",
+			"categories": [
+				"Оружие",
+				"Ружья"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"id": "baf4cd54-0949-4805-9cdc-e07e2fc60578",
+			"description": "ТОЗ МЦ 20-01, 20G 2.75”",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "400",
+			"weight": "5.6 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "10†",
+					"usage": "2.75”",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "1x7",
+					"shots": "2+1(3)",
+					"bulk": "-6",
+					"recoil": "1/5",
+					"calc": {
+						"level": 0,
+						"range": "40/800",
+						"damage": "1d+1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Choked - очень короткое расстояние - на 8 ярдах (20%), -1 к Guns после 8 ярдов, но количество попаданий умножается на 1.5 (HT PGV1, стр. 24). Нельзя стрелять 3\", +P патронами.",
+			"categories": [
+				"Оружие",
+				"Ружья"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"id": "f25a4124-85a4-4a69-9e2b-5b578af08def",
+			"description": "ТОЗ-54, Обрез, 12G 2.75”",
+			"tech_level": "7",
+			"legality_class": "2",
+			"value": "500",
+			"weight": "4.2 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "13†",
+					"usage": "2.75”",
+					"accuracy": "1",
+					"range": "40/800",
+					"rate_of_fire": "2x8",
+					"shots": "2(3i)",
+					"bulk": "-3",
+					"recoil": "1/6",
+					"calc": {
+						"level": 0,
+						"range": "40/800",
+						"damage": "1d+1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "+1 к броскам Слуха и Зрения чтобы определить положение стреляющего в темноте. Нельзя стрелять 3\", +P патронами.",
+			"categories": [
+				"Оружие",
+				"Ружья"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"id": "417e472f-3ded-4c4b-a8f0-cc0cd6404ced",
+			"description": "ТОЗ-54, 12G 2.75”",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "500",
+			"weight": "7.2 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "11†",
+					"usage": "2.75”",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "2x9",
+					"shots": "2(3i)",
+					"bulk": "-6",
+					"recoil": "1/5",
+					"calc": {
+						"level": 0,
+						"range": "40/800",
+						"damage": "1d+1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Оружие",
+				"Ружья"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"id": "2a3ef0b3-0fc5-4988-815e-1941fcca418b",
+			"description": "ТОЗ БМ, Обрез, 20G 2.75”",
+			"tech_level": "7",
+			"legality_class": "2",
+			"value": "200",
+			"weight": "2.5 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "13†",
+					"usage": "2.75”",
+					"accuracy": "1",
+					"range": "40/700",
+					"rate_of_fire": "2x7",
+					"shots": "2(3i)",
+					"bulk": "-3",
+					"recoil": "1/6",
+					"calc": {
+						"level": 0,
+						"range": "40/700",
+						"damage": "1d+1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "+1 к броскам Слуха и Зрения чтобы определить положение стреляющего в темноте. Нельзя стрелять 3\", +P патронами.",
+			"categories": [
+				"Оружие",
+				"Ружья"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"id": "a6b1068a-2e56-4288-aaa1-a2a99255055d",
+			"description": "ТОЗ БМ, Обрез, 16G 2.75”",
+			"tech_level": "7",
+			"legality_class": "2",
+			"value": "200",
+			"weight": "3.5 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "13†",
+					"usage": "2.75”",
+					"accuracy": "1",
+					"range": "40/700",
+					"rate_of_fire": "2x8",
+					"shots": "2(3i)",
+					"bulk": "-3",
+					"recoil": "1/6",
+					"calc": {
+						"level": 0,
+						"range": "40/700",
+						"damage": "1d+1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "+1 к броскам Слуха и Зрения чтобы определить положение стреляющего в темноте. Нельзя стрелять 3\", +P патронами.",
+			"categories": [
+				"Оружие",
+				"Ружья"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"id": "e1535035-0a84-4d15-9d04-0144ed68a301",
+			"description": "ТОЗ БМ, 20G 2.75”",
+			"tech_level": "7",
+			"legality_class": "3",
+			"value": "200",
+			"weight": "5.5 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "11†",
+					"usage": "2.75”",
+					"accuracy": "3",
+					"range": "40/700",
+					"rate_of_fire": "2x7",
+					"shots": "2(3i)",
+					"bulk": "-6",
+					"recoil": "1/5",
+					"calc": {
+						"level": 0,
+						"range": "40/700",
+						"damage": "1d+1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Нельзя стрелять 3\", +P патронами.",
+			"categories": [
+				"Оружие",
+				"Ружья"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"id": "9708067b-2257-469e-bb95-57201dd2f8b2",
+			"description": "ТОЗ БМ, 16G 2.75”",
+			"tech_level": "7",
+			"legality_class": "3",
+			"value": "200",
+			"weight": "6.5 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "11†",
+					"usage": "2.75”",
+					"accuracy": "3",
+					"range": "40/700",
+					"rate_of_fire": "2x8",
+					"shots": "2(3i)",
+					"bulk": "-6",
+					"recoil": "1/5",
+					"calc": {
+						"level": 0,
+						"range": "40/700",
+						"damage": "1d+1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Нельзя стрелять 3\", +P патронами.",
+			"categories": [
+				"Оружие",
+				"Ружья"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"id": "1ed8ca4d-d742-4af9-ac82-7012149616ce",
+			"description": "ТОЗ-34 Обрез, 12G 2.75”",
+			"tech_level": "7",
+			"legality_class": "2",
+			"value": "240",
+			"weight": "3.2 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "13†",
+					"usage": "2.75”",
+					"accuracy": "1",
+					"range": "40/800",
+					"rate_of_fire": "2x9",
+					"shots": "2(3i)",
+					"bulk": "-3",
+					"recoil": "1/6",
+					"calc": {
+						"level": 0,
+						"range": "40/800",
+						"damage": "1d+1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "+1 к броскам Слуха и Зрения чтобы определить положение стреляющего в темноте. Можно установить переходную планку для установки прицелов (Accessory Rail, НТ161, $100, 0.2 ф.), но при установке прицелов весом больше 0.4 ф. - Надежн.-1 (16). Нельзя стрелять 3\", +P патронами.",
+			"categories": [
+				"Оружие",
+				"Ружья"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"id": "9531c0b1-abe8-41e1-ba0d-b0043c51deee",
+			"description": "ТОЗ-34, 12G 2.75”",
+			"tech_level": "7",
+			"legality_class": "3",
+			"value": "240",
+			"weight": "6.2 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "11†",
+					"usage": "2.75”",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "2x9",
+					"shots": "2(3i)",
+					"bulk": "-6",
+					"recoil": "1/5",
+					"calc": {
+						"level": 0,
+						"range": "40/800",
+						"damage": "1d+1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Можно установить переходную планку для установки прицелов (Accessory Rail, НТ161, $100, 0.2 ф.), но при установке прицелов весом больше 0.4 ф. - Надежн.-1 (16). Нельзя стрелять 3\", +P патронами.",
+			"categories": [
+				"Оружие",
+				"Ружья"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"id": "ed419521-a74d-4d7d-b001-50bf082f8590",
+			"description": "Mossberg 500 без приклада, 12G 2.75”",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "250",
+			"weight": "5.2 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "10†",
+					"usage": "2.75”",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "2x9",
+					"shots": "5+1(2i)",
+					"bulk": "-3",
+					"recoil": "1/5",
+					"calc": {
+						"level": 0,
+						"range": "40/800",
+						"damage": "1d+1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+2"
+					},
+					"strength": "10†",
+					"usage": "3”",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "2x12",
+					"shots": "5+1(2i)",
+					"bulk": "-3",
+					"recoil": "1/5",
+					"calc": {
+						"level": 0,
+						"range": "40/800",
+						"damage": "1d+2 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Оружие",
+				"Ружья"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"id": "073c6eb3-5d1b-4b32-a427-4c3b757c6d4f",
+			"description": "Mossberg 500 Тактический, 12G 2.75”",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "450",
+			"weight": "6.2 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "10†",
+					"usage": "2.75”",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "2x9",
+					"shots": "5+1(2i)",
+					"bulk": "-4*",
+					"recoil": "1/4",
+					"calc": {
+						"level": 0,
+						"range": "40/800",
+						"damage": "1d+1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+2"
+					},
+					"strength": "10†",
+					"usage": "3”",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "2x12",
+					"shots": "5+1(2i)",
+					"bulk": "-4*",
+					"recoil": "1/4",
+					"calc": {
+						"level": 0,
+						"range": "40/800",
+						"damage": "1d+2 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"notes": "Складывающийся приклад, пистолетная рукоятка и укороченный ствол.",
+			"categories": [
+				"Оружие",
+				"Ружья"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment_container",
+			"id": "1fc6e80a-6623-4035-bcac-b5f3e2149b3d",
+			"description": "Mossberg 500, 12G 2.75”",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "450",
+			"weight": "7.2 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "10†",
+					"usage": "2.75”",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "2x9",
+					"shots": "5+1(2i)",
+					"bulk": "-6",
+					"recoil": "1/4",
+					"calc": {
+						"level": 0,
+						"range": "40/800",
+						"damage": "1d+1 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+2"
+					},
+					"strength": "10†",
+					"usage": "3”",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "2x12",
+					"shots": "5+1(2i)",
+					"bulk": "-6",
+					"recoil": "1/4",
+					"calc": {
+						"level": 0,
+						"range": "40/800",
+						"damage": "1d+2 pi"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Оружие",
+				"Ружья"
+			],
+			"open": true
+		},
+		{
 			"type": "equipment_container",
 			"id": "a05db018-eaf7-46b8-ab60-174037f77ec9",
 			"description": "Ижмаш АШ-12, 12.7×55mm СЦ-130",
@@ -60,7 +2721,7 @@
 				"Винтовки",
 				"Оружие"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -118,7 +2779,7 @@
 				"Винтовки",
 				"Оружие"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -177,7 +2838,7 @@
 				"Винтовки",
 				"Оружие"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -236,7 +2897,7 @@
 				"Винтовки",
 				"Оружие"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -295,7 +2956,7 @@
 				"Винтовки",
 				"Оружие"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -400,7 +3061,7 @@
 				"Винтовки",
 				"Оружие"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -505,7 +3166,7 @@
 				"Винтовки",
 				"Оружие"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -564,7 +3225,7 @@
 				"Винтовки",
 				"Оружие"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -623,7 +3284,7 @@
 				"Винтовки",
 				"Оружие"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -682,7 +3343,7 @@
 				"Винтовки",
 				"Оружие"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -741,7 +3402,7 @@
 				"Винтовки",
 				"Оружие"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -800,7 +3461,7 @@
 				"Винтовки",
 				"Оружие"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -859,7 +3520,7 @@
 				"Винтовки",
 				"Оружие"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -918,7 +3579,7 @@
 				"Винтовки",
 				"Оружие"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -977,7 +3638,7 @@
 				"Винтовки",
 				"Оружие"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -1036,7 +3697,7 @@
 				"Винтовки",
 				"Оружие"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -1095,7 +3756,7 @@
 				"Винтовки",
 				"Оружие"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -1154,7 +3815,7 @@
 				"Винтовки",
 				"Оружие"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -1213,7 +3874,7 @@
 				"Винтовки",
 				"Оружие"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -1272,7 +3933,7 @@
 				"Винтовки",
 				"Оружие"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -1331,7 +3992,7 @@
 				"Винтовки",
 				"Оружие"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -1392,7 +4053,7 @@
 				"Винтовки",
 				"Оружие"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -1453,7 +4114,7 @@
 				"Винтовки",
 				"Оружие"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -1514,7 +4175,7 @@
 				"Винтовки",
 				"Оружие"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -1619,7 +4280,7 @@
 				"Винтовки",
 				"Оружие"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -1678,7 +4339,7 @@
 				"Оружие",
 				"Пистолеты"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -1737,7 +4398,7 @@
 				"Оружие",
 				"Пистолеты"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -1795,7 +4456,7 @@
 				"Оружие",
 				"Пистолеты"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -1853,7 +4514,7 @@
 				"Оружие",
 				"Пистолеты"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -1911,7 +4572,7 @@
 				"Оружие",
 				"Пистолеты"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -1970,7 +4631,7 @@
 				"Оружие",
 				"Пистолеты"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -2029,7 +4690,7 @@
 				"Оружие",
 				"Пистолеты"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -2088,7 +4749,7 @@
 				"Оружие",
 				"Пистолеты"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -2147,7 +4808,7 @@
 				"Оружие",
 				"Пистолеты"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -2205,7 +4866,7 @@
 				"Оружие",
 				"Пистолеты"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -2264,7 +4925,7 @@
 				"Оружие",
 				"Пистолеты-Пулеметы"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -2323,7 +4984,7 @@
 				"Оружие",
 				"Пистолеты-Пулеметы"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -2381,7 +5042,7 @@
 				"Оружие",
 				"Пистолеты-Пулеметы"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -2439,7 +5100,7 @@
 				"Оружие",
 				"Пистолеты-Пулеметы"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -2498,7 +5159,7 @@
 				"Оружие",
 				"Пистолеты-Пулеметы"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -2557,7 +5218,7 @@
 				"Оружие",
 				"Пистолеты-Пулеметы"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -2615,7 +5276,7 @@
 				"Оружие",
 				"Пистолеты-Пулеметы"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -2674,7 +5335,7 @@
 				"Оружие",
 				"Пистолеты-Пулеметы"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -2733,7 +5394,7 @@
 				"Оружие",
 				"Пистолеты-Пулеметы"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -2792,7 +5453,7 @@
 				"Оружие",
 				"Пистолеты-Пулеметы"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -2851,7 +5512,7 @@
 				"Оружие",
 				"Пистолеты-Пулеметы"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -2910,7 +5571,7 @@
 				"Оружие",
 				"Пистолеты-Пулеметы"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -2969,7 +5630,7 @@
 				"Оружие",
 				"Пистолеты-Пулеметы"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -3028,7 +5689,7 @@
 				"Оружие",
 				"Пистолеты-Пулеметы"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -3087,7 +5748,7 @@
 				"Оружие",
 				"Пистолеты-Пулеметы"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -3146,7 +5807,7 @@
 				"Оружие",
 				"Пистолеты-Пулеметы"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -3205,7 +5866,7 @@
 				"Оружие",
 				"Пистолеты-Пулеметы"
 			],
-			"open": false
+			"open": true
 		},
 		{
 			"type": "equipment_container",
@@ -3264,7 +5925,7 @@
 				"Оружие",
 				"Пистолеты-Пулеметы"
 			],
-			"open": false
+			"open": true
 		}
 	]
 }
